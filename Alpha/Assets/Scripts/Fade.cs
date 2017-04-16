@@ -11,8 +11,6 @@ public class Fade : MonoBehaviour {
 	private int drawDepth = -1000;	
 	private float alpha = 1.0f;	
 	private int fadeDir = -1;	
-	private bool fadeMusic = false;
-	private AudioSource mainMenuMusic;
 
 	void Awake() {
 		SceneManager.sceneLoaded += loadedScene;
